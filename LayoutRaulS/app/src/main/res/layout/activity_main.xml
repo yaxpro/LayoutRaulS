@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hola Chile"
+        android:text="WRAP CONTENT"
         android:background="#ffff0000"
         android:width="100dp"
         android:height="40dp"
@@ -20,19 +20,21 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mundo Feliz"
+        android:text="MATCH PARENT"
+        android:textSize="50sp"
         android:background="#0050F0"
         android:width="200dp"
         android:height="60dp"
        />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Adios Mundo"
+        android:textSize="50sp"
         android:background="#08FF00"
         android:width="300dp"
         android:height="80dp"
